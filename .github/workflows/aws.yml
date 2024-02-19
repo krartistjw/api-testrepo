@@ -4,7 +4,7 @@ on:
 
 env:
   AWS_REGION: ap-northeast-2                   # set this to your preferred AWS region, e.g. us-west-1
-  ECR_REPOSITORY: zcoa-slack-bot           # set this to your Amazon ECR repository name
+  ECR_REPOSITORY: zcoa-slack-bot-dev           # set this to your Amazon ECR repository name
   CONTAINER_NAME: api-testrepo           # set this to the name of the container in the
   # ECS_SERVICE: MY_ECS_SERVICE                 # set this to your Amazon ECS service name
   # ECS_CLUSTER: MY_ECS_CLUSTER                 # set this to your Amazon ECS cluster name
