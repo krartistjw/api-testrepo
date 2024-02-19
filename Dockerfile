@@ -8,4 +8,4 @@ COPY ./build/libs/api-testrepo-0.0.1-SNAPSHOT.jar /app/api-testrepo-0.0.1-SNAPSH
 
 WORKDIR /app
 
-ENTRYPOINT ["java", "-verbose:gc","-XX:+UseConcMarkSweepGC","-jar","api-testrepo-0.0.1-SNAPSHOT.jar.jar"]
+ENTRYPOINT ["java", "-verbose:gc","-XX:+UseConcMarkSweepGC","-jar","api-testrepo-0.0.1-SNAPSHOT.jar"]
